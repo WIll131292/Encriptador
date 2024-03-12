@@ -1,1 +1,40 @@
-<h1>"encriptador de texto"</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    
+
+</head>
+
+<body>
+    <header>
+        
+    </header>
+        <main>
+            <section>
+                <textarea class = "ingreso_de_texto"  placeholder= "ingresa el texto aquí"> </textarea>
+                <div>
+                    <h1 class= "texto_inferior"> Solo letras Minusculas y sin Acentos</h1>
+                </div>
+                <div>
+                <button class ="boton_encriptar"> Encriptar</button> 
+                <button class="boton_desencriptar"> Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <textarea class= "mensaje_decifrado" ></textarea>
+                </div>
+                <div>
+                <button class="copiar"> copiar</button>
+                </div>
+            </section>
+        </main>
+    <script src ="codigo.js" ></script>
+</body>
+</html>

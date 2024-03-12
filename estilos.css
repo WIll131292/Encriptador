@@ -1,1 +1,72 @@
-
+body{
+    background-color: beige;
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 2px; 
+    
+}
+section{
+    display: inline-block;
+    margin-top: 10%;
+}
+.ingreso_de_texto{
+    background: beige;
+    border: none;
+    padding:5px;
+    height:576px;
+    width: 440px;
+    margin: 10% 10% 24px; 
+}
+.texto_inferior{
+    font-size: 15px;
+    margin-left: 10%;     
+}
+.boton_encriptar{
+    background-color: brown;
+    color: aliceblue;
+    padding-bottom: 1cqmax;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px; 
+    margin-left: 10%;           
+}
+.boton_encriptar:hover{
+    background-color:beige ;
+    color: brown;
+}
+.boton_desencriptar{
+    padding-bottom: 1cqmax;
+    color:brown;
+    margin: 5px;
+    text-align: center;
+    border-color: brown;
+    border-radius: 5px;
+}
+.boton_desencriptar:hover{
+    background-color:brown ;
+    color: beige;
+}
+.mensaje_decifrado{
+    background: bisque;
+    padding:5px;
+    height:576px;
+    width: 440px;
+    margin: 10% 10% 24px; 
+    border:none
+}
+.copiar{
+    padding-bottom: 1cqmax;
+    margin: 5px;
+    text-align: center;
+    background: beige;
+    color: brown;
+    border-radius: 5px;
+    margin-left: 10%;  
+}
+.copiar:hover{
+     background: brown;
+    color:beige;
+}
